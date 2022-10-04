@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sumas.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkBlue" 
+               Padding="20" 
+               CornerRadius="0">
+            <Label Text="Ejercicio 1.1 Erik Baca 201810120024" 
+                   HorizontalTextAlignment="Center" 
+                   TextColor="White" 
+                   FontSize="17"/>
+        </Frame>
+        
+        <Label Text="Numero1" 
+               HorizontalTextAlignment="Start" 
+               TextColor="Black" 
+               FontSize="20" 
+               Padding="10,34,30,0"
+               />
+        
+        <Entry x:Name="Numero1"
+               Placeholder="Ingrese el primer numero"
+               Keyboard="Numeric"
+               />
+        
+        <Label Text="Numero2" 
+               HorizontalTextAlignment="Start" 
+               TextColor="Black" 
+               FontSize="20" 
+               Padding="10,14,30,0"/>
+        
+        <Entry x:Name="Numero2"
+               Placeholder="Ingrese el segundo numero"
+               Keyboard="Numeric"
+               />
+
+        <Button Text="Sumar" 
+                Clicked="Sumar_Clicked"
+                TextTransform="None"
+                BackgroundColor="DarkBlue"
+                TextColor="White"
+                FontSize="22"
+                FontAttributes="Bold"
+                CornerRadius="10"
+                Padding="10,10,10,10"  
+                Margin="30,10,30,10"   
+                        />
+        <Button Text="Restar" 
+                Clicked="Restar_Clicked"
+                TextTransform="None"
+                BackgroundColor="DarkBlue"
+                TextColor="White"
+                FontSize="22"
+                FontAttributes="Bold"
+                CornerRadius="10"
+                Padding="10,10,10,10"  
+                Margin="30,0,30,10"                
+                        />
+        <Button Text="Multiplicar" 
+                Clicked="Multiplicar_Clicked"
+                TextTransform="None"
+                BackgroundColor="DarkBlue"
+                TextColor="White"
+                FontSize="22"
+                FontAttributes="Bold"
+                CornerRadius="10"
+                Padding="10,10,10,10"  
+                Margin="30,0,30,10"                
+                        />
+        <Button Text="Dividir" 
+                Clicked="Dividir_Clicked"
+                TextTransform="None"
+                BackgroundColor="DarkBlue"
+                TextColor="White"
+                FontSize="22"
+                FontAttributes="Bold"
+                CornerRadius="10"
+                Padding="10,10,10,10"  
+                Margin="30,0,30,10"                
+                        />
+
+    </StackLayout>
+
+</ContentPage>
