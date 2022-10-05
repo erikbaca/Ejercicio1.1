@@ -18,7 +18,7 @@ namespace Sumas
         private async void Sumar_Clicked(object sender, EventArgs e)
         {
             if (String.IsNullOrEmpty(Numero1.Text) || (String.IsNullOrEmpty(Numero2.Text))){
-                _ = DisplayAlert("Campos Vacios", "Hay un Campo Vacio! Favor Llenar Ambos Campos", "Volver");
+                _ = DisplayAlert("Campos Vacios", "Campos Vacios! Favor Llenar campos requeridos", "Atras");
             }
             else
             {
@@ -36,7 +36,7 @@ namespace Sumas
 
             if (String.IsNullOrEmpty(Numero1.Text) || (String.IsNullOrEmpty(Numero2.Text)))
             {
-                _ = DisplayAlert("Campos Vacios", "Hay un Campo Vacio! Favor Llenar Ambos Campos", "Volver");
+                _ = DisplayAlert("Campos Vacios", "Campos Vacios! Favor Llenar campos requeridos", "Atras");
             }
             else
             {
@@ -54,7 +54,7 @@ namespace Sumas
         {
             if (String.IsNullOrEmpty(Numero1.Text) || (String.IsNullOrEmpty(Numero2.Text)))
             {
-                _ = DisplayAlert("Campos Vacios", "Hay un Campo Vacio! Favor Llenar Ambos Campos", "Volver");
+                _ = DisplayAlert("Campos Vacios", "Campos Vacios! Favor Llenar campos requeridos", "Atras");
             }
             else
             {
@@ -73,12 +73,12 @@ namespace Sumas
             int n2 = Convert.ToInt32(Numero2.Text);
             if (n2.Equals(0))
             {
-                _ = DisplayAlert("Division entre Cero", "El Valor a dividir es igual a Cero, Esto Provacaria una Excepcion de Error", "Volver");
+                _ = DisplayAlert("Division entre Cero", "El valor a dividir es igual a cero, Esto Provacaria Error", "Atras");
             }
 
            else if (String.IsNullOrEmpty(Numero1.Text) || (String.IsNullOrEmpty(Numero2.Text)))
                 {
-                    _ = DisplayAlert("Campos Vacios", "Hay un Campo Vacio! Favor Llenar Ambos Campos", "Volver");
+                    _ = DisplayAlert("Campos Vacios", "Campos Vacios! Favor Llenar campos requeridos", "Atras");
                 }
                 else
                 {
