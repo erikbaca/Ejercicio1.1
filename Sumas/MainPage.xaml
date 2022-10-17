@@ -7,7 +7,7 @@
         <Frame BackgroundColor="DarkBlue" 
                Padding="20" 
                CornerRadius="0">
-            <Label Text="Ejercicio 1.1 Erik Baca 201810120024" 
+            <Label Text="Ejercicio 1.1" 
                    HorizontalTextAlignment="Center" 
                    TextColor="White" 
                    FontSize="17"/>
